@@ -2,7 +2,7 @@ body {
     color: #40514E;
     margin: 0;
     text-align: center;
-    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
@@ -25,6 +25,7 @@ h3 {
 }
 
 hr {
+    /*
     background-color: none;
     border-color: #c9d6df;
     border-width: 5px;
@@ -32,6 +33,26 @@ hr {
     border-top-style: dotted;
     height: 0px;
     width: 5%;
+    */
+    border: dotted #c9d6df 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto 100px auto;
+}
+
+p {
+    line-height: 2;
+}
+
+a {
+    color: #40514E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #EAF6F6;
 }
 
 .top-container {
@@ -45,21 +66,39 @@ hr {
 .middle-container {
     background-color: #f0f5f9;
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .bottom-container {
-    background-color: #f0f5f9;
+    padding: 50px 0 20px;
+    background-color: #c9d6df;
 }
 
 .skill-row {
     width: 50%;
     margin: 100px auto 100px auto;
     text-align: left;
-    line-height: 2;
+    padding: 10px;
 }
 
 .pro {
     text-decoration: underline;
+}
+
+.intro{
+    width: 30%;
+    margin: auto;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
 }
 
 .bottom-cloud {
@@ -99,3 +138,20 @@ hr {
 .programming-projects-description {
     clear: right;
 }*/
+   
+.btn {
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    background: #52616b;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+    .btn:hover {
+        background: #c9d6df;
+        text-decoration: none;
+    }
